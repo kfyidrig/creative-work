@@ -1,0 +1,30 @@
+.paint-box{
+    position: relative;
+    margin-right: 7%;
+    width: 35vw;
+    min-width: 426px;
+    height: 35vw;
+    min-height: 426px;
+    border: black solid 4px;
+}
+.paint-box>span{
+    overflow: hidden;
+}
+.paint-box>span>svg{
+    margin: 8% 15% 2%;
+    width: 70%;
+    cursor: pointer;
+}
+.paint-intro{
+    margin: 1em auto;
+    width: 80%;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+.input-color{
+    position: absolute;
+    top:3px;
+    left: 3px;
+    /*transform: translateY(-110%);*/
+}

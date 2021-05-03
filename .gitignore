@@ -1,0 +1,4 @@
+#配置git忽略文件，防止一些文件被提交到git
+node_modules
+.idea
+dist

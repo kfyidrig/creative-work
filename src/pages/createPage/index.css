@@ -1,0 +1,60 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v9/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v9/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+#root{
+    min-width: 1200px;
+}
+body{
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+.create-title{
+    padding: 10px 12%;
+    overflow: hidden;
+}
+.create-title>a>h1{
+    font-size: 35px;
+    float: left;
+    color: black;
+}
+.create-title>a>h2{
+    margin-top: 50px;
+    margin-right: 5%;
+    font-size: 30px;
+    float: right;
+    text-decoration: underline;
+    color: black;
+}
+.main-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right-wrap{
+    width: 35%;
+}
+.create-btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.create-btn>span{
+    margin: 0 calc((100% - 550px)/6) 0;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 23px;
+}

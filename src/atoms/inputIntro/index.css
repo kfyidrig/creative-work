@@ -1,0 +1,11 @@
+.input-intro>textarea{
+    padding: 0 5px;
+    width: 100%;
+    outline: none;
+    border: black solid 3px;
+    height: 60px;
+    font-size: 25px;
+    color: black;
+    /*background-color: #18dbdb;*/
+    font-weight: 500;
+}

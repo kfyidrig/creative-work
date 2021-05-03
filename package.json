@@ -1,0 +1,43 @@
+{
+  "author": "数据与知识工程实验室",
+  "description": "算法实验管理平台前端",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "html-webpack-plugin": "^5.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "wepack": "^0.0.1"
+  },
+  "keywords": [
+    "算法管理平台",
+    "实验管理平台",
+    "教辅系统",
+    "oj"
+  ],
+  "license": "ISC",
+  "main": "router.js",
+  "name": "swustoj-teach-front",
+  "scripts": {
+    "start": "npx webpack serve",
+    "build": "npx webpack --mode=production",
+    "dev-lan": "npx webpack serve --disable-host-check --host 0.0.0.0"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "history": "^4.10.1",
+    "html2canvas": "^1.0.0-rc.7"
+  }
+}

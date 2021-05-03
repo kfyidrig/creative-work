@@ -1,0 +1,32 @@
+.upload-tips{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    width: 600px;
+    height: 180px;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 170px;
+    text-align: center;
+    animation: show 4s none;
+    /*animation-iteration-count: 1;*/
+}
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        /*display: none;*/
+    }
+}
